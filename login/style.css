@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #9c9c9c;
+    border-radius: 10px;
+    height: 380px;
+    width: 400px;
+    padding: 25px;
+    background: #fff;
+}
+.logo{
+    width: 100px;
+    padding: 5px 0;
+    margin: 0 0 0 -12px;
+  }
+  .head{
+    padding-left: 20vh;
+  }
+  .head h3{
+    margin: 0.5%;
+    font-size: 23px;
+    font-family: arial rounded mt;
+    position: relative;
+    letter-spacing: 1px;
+  }
+  h4{
+    margin: 5%;
+    font-size: 15px;
+    font-family: arial rounded mt;
+    position: relative;
+    letter-spacing: 1px;
+    transform: translateX(8.5vh);
+    
+  }
+  input{
+    outline: none;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 42px;
+    font-size: 15px;
+  }
+  input:focus{
+    border: 1.5px solid #1f52f9;
+  }
+input[type="password"]
+{
+  display: block;
+  width: 350px;
+  margin: 10px 0 0 10px;
+}
+input[type="email"]
+{
+  display: block;
+  width: 350px;
+  margin: 10px 0 0 10px;
+}
+label{
+    position: relative;
+    font-family:roboto;
+    color: #555;
+    font-size: 15px;
+    pointer-events: none;
+    left: 20px;
+    top: -30px;
+    transition: .2s all;
+  }
+  input:focus ~label,
+  input:valid ~ label{
+    top: -54px;
+    left: 15px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    color: #1f52f9;
+  }
+  input[type="submit"]{
+    background:  #4971f6;
+    color: #fff;
+    border: none;
+    padding:10px 30px;
+    border-radius: 5px;
+    margin:  40px 0 25px 165px;
+    cursor: pointer;
+    font-size: 15px;
+   
+  }
+  input[type="submit"]:hover{
+    background: #254fdb;
+  }
+  a{
+    position: relative;
+    font-family: roboto;
+    text-decoration: none;
+    display: block;
+  }
+  .line4{
+    font-size: 15px;
+    margin: 20px 8px;
+    color: #4971f6;
+    display: inline-block;
+    font-family: arial rounded mt;
+  }
+  .line3{
+    color: #1144ed;
+    font-size: 15px;
+    margin: 0 0 12px 15px;
+  }
